@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 142 76% 45%;
+    --primary: 73 60% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 142 76% 45%;
+    --accent: 73 60% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,17 +34,17 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 142 76% 45%;
+    --ring: 73 60% 50%;
 
     --radius: 0.75rem;
 
     /* Brand colors */
-    --brand-green: 142 76% 45%;
-    --brand-green-light: 142 76% 55%;
-    --brand-green-dark: 142 76% 35%;
+    --brand-green: 73 60% 50%;
+    --brand-green-light: 73 60% 60%;
+    --brand-green-dark: 73 60% 40%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(142 76% 45%), hsl(142 76% 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(73 60% 50%), hsl(73 60% 60%));
     --gradient-light: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 98%));
   }
 }
