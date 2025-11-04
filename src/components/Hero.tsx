@@ -1,6 +1,7 @@
 import { MessageCircle, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/pemasp-logo.png";
 
 const Hero = () => {
   const handleWhatsApp = () => {
@@ -28,15 +29,12 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         {/* Logo/Brand */}
         <div className="mb-8 inline-block">
-          <div className="flex items-center gap-3 bg-white shadow-lg px-8 py-4 rounded-2xl border border-gray-200">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-              <svg viewBox="0 0 24 24" className="w-7 h-7 text-white" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-              </svg>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-              PEMASP
-            </h1>
+          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-8 py-6 rounded-2xl border border-gray-200">
+            <img 
+              src={logo} 
+              alt="PEMASP Auto Peças Logo" 
+              className="h-16 md:h-20 w-auto object-contain"
+            />
           </div>
         </div>
 
