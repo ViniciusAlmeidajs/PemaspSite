@@ -11,13 +11,13 @@ const CTA = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-card to-background">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
             Pronto para encontrar a peça que você precisa?
           </h2>
-          <p className="text-lg text-muted-foreground mb-10">
+          <p className="text-lg text-gray-600 mb-10">
             Entre em contato pelo WhatsApp ou visite nossa loja oficial no Mercado Livre
           </p>
           
@@ -43,7 +43,7 @@ const CTA = () => {
             </Button>
           </div>
 
-          <p className="mt-8 text-sm text-muted-foreground">
+          <p className="mt-8 text-sm text-gray-600">
             📍 Av. Queiroz Pedroso, 187 - Jardim Pedroso, Mauá - SP
           </p>
         </div>
