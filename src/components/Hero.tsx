@@ -57,22 +57,22 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
             size="xl" 
-            variant="cta"
+            variant="whatsapp"
             onClick={handleWhatsApp}
             className="w-full sm:w-auto min-w-[240px]"
           >
             <MessageCircle className="w-5 h-5" />
-            Fale no WhatsApp
+            Falar no WhatsApp
           </Button>
           
           <Button 
             size="xl" 
-            variant="outline"
+            variant="mercadolivre"
             onClick={handleMercadoLivre}
             className="w-full sm:w-auto min-w-[240px]"
           >
             <ShoppingCart className="w-5 h-5" />
-            Ver Loja Oficial
+            Acessar Loja no Mercado Livre
           </Button>
         </div>
 

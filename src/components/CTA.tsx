@@ -24,22 +24,22 @@ const CTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="xl" 
-              variant="cta"
+              variant="whatsapp"
               onClick={handleWhatsApp}
               className="w-full sm:w-auto min-w-[280px]"
             >
               <MessageCircle className="w-5 h-5" />
-              Falar com Especialista
+              Falar no WhatsApp
             </Button>
             
             <Button 
               size="xl" 
-              variant="outline"
+              variant="mercadolivre"
               onClick={handleMercadoLivre}
               className="w-full sm:w-auto min-w-[280px]"
             >
               <ShoppingCart className="w-5 h-5" />
-              Acessar Loja no ML
+              Acessar Loja no Mercado Livre
             </Button>
           </div>
 

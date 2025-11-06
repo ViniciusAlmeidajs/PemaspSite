@@ -43,6 +43,9 @@ All colors MUST be HSL.
     --brand-green-light: 73 60% 60%;
     --brand-green-dark: 73 60% 40%;
     
+    --brand-yellow: 48 100% 59%;
+    --brand-yellow-light: 48 100% 69%;
+    
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(73 60% 50%), hsl(73 60% 60%));
     --gradient-light: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 98%));
