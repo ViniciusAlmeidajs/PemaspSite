@@ -1,4 +1,4 @@
-import { MessageCircle, ShoppingCart } from "lucide-react";
+import { MessageCircle, ShoppingCart, Shield, Truck, Headset } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/pemasp-logo.png";
@@ -77,18 +77,35 @@ const Hero = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="mt-16 flex flex-wrap justify-center gap-8 text-sm text-gray-600">
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            Marcas Originais
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl border-2 border-primary/20 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.3)] hover:scale-105 duration-300">
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                <Shield className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="font-semibold text-gray-900">Marcas Originais</h3>
+              <p className="text-sm text-gray-600">Produtos certificados e garantidos</p>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            Entrega Rápida
+          
+          <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl border-2 border-primary/20 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.3)] hover:scale-105 duration-300">
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                <Truck className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="font-semibold text-gray-900">Entrega Rápida</h3>
+              <p className="text-sm text-gray-600">Receba suas peças com agilidade</p>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            Atendimento Especializado
+          
+          <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl border-2 border-primary/20 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.3)] hover:scale-105 duration-300">
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                <Headset className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="font-semibold text-gray-900">Atendimento Especializado</h3>
+              <p className="text-sm text-gray-600">Equipe técnica pronta para ajudar</p>
+            </div>
           </div>
         </div>
       </div>
