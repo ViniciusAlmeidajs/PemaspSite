@@ -5,7 +5,7 @@ import logo from "@/assets/pemasp-logo.png";
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999", "_blank");
+    window.open("https://wa.me/5511951061998", "_blank");
   };
 
   const handleMercadoLivre = () => {
