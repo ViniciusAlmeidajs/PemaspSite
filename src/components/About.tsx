@@ -46,7 +46,7 @@ const About = () => {
             return (
               <Card 
                 key={index} 
-                className="bg-white border-gray-200 hover:border-primary/50 transition-all hover:shadow-lg"
+                className="bg-white border-2 border-primary/30 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.5)] hover:scale-105 duration-300"
               >
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center">

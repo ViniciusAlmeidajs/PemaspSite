@@ -59,7 +59,7 @@ const Hero = () => {
             size="xl" 
             variant="whatsapp"
             onClick={handleWhatsApp}
-            className="w-full sm:w-auto min-w-[240px]"
+            className="w-full sm:w-auto sm:min-w-[280px]"
           >
             <MessageCircle className="w-5 h-5" />
             Falar no WhatsApp
@@ -69,7 +69,7 @@ const Hero = () => {
             size="xl" 
             variant="mercadolivre"
             onClick={handleMercadoLivre}
-            className="w-full sm:w-auto min-w-[240px]"
+            className="w-full sm:w-auto sm:min-w-[280px]"
           >
             <ShoppingCart className="w-5 h-5" />
             Acessar Loja no Mercado Livre
