@@ -24,9 +24,14 @@ const Hero = () => {
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-transparent to-white/80 z-[1]" />
+      
+      {/* Decorative Elements */}
+      <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float" />
+      <div className="absolute bottom-20 right-10 w-40 h-40 bg-brand-yellow/10 rounded-full blur-3xl animate-float-slow" />
+      <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-primary/5 rounded-full blur-2xl animate-float" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center">
+      <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in-up">
         {/* Logo/Brand */}
         <div className="mb-8 inline-block">
           <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-8 py-6 rounded-2xl border border-gray-200">
@@ -54,12 +59,12 @@ const Hero = () => {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-200">
           <Button 
             size="xl" 
             variant="whatsapp"
             onClick={handleWhatsApp}
-            className="w-full sm:w-auto sm:min-w-[280px]"
+            className="w-full sm:w-auto sm:min-w-[280px] transition-all hover:scale-105 hover:shadow-lg"
           >
             <MessageCircle className="w-5 h-5" />
             Falar no WhatsApp
@@ -69,7 +74,7 @@ const Hero = () => {
             size="xl" 
             variant="mercadolivre"
             onClick={handleMercadoLivre}
-            className="w-full sm:w-auto sm:min-w-[280px]"
+            className="w-full sm:w-auto sm:min-w-[280px] transition-all hover:scale-105 hover:shadow-lg"
           >
             <ShoppingCart className="w-5 h-5" />
             Acessar Loja no Mercado Livre
@@ -77,7 +82,7 @@ const Hero = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto animate-fade-in-up animation-delay-400">
           <div className="group bg-white/80 backdrop-blur-sm p-6 rounded-xl border-2 border-primary/20 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.3)] hover:scale-105 duration-300">
             <div className="flex flex-col items-center text-center gap-3">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
