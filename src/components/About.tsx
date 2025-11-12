@@ -26,9 +26,13 @@ const features = [
 
 const About = () => {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+    <section className="relative py-20 bg-gray-50 overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-10 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-float-slow" />
+      <div className="absolute bottom-10 left-10 w-72 h-72 bg-brand-yellow/5 rounded-full blur-3xl animate-float" />
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
             Sobre a <span className="text-primary">PEMASP</span>
           </h2>
@@ -40,18 +44,18 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in-up animation-delay-200">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
               <Card 
                 key={index} 
-                className="bg-white border-2 border-primary/30 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.5)] hover:scale-105 duration-300"
+                className="bg-white border-2 border-primary/30 hover:border-primary transition-all hover:shadow-[0_0_25px_rgba(164,206,51,0.5)] hover:scale-105 duration-300 group"
               >
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center">
-                    <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                      <Icon className="w-8 h-8 text-primary" />
+                    <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                      <Icon className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
                     </div>
                     <h3 className="text-xl font-semibold mb-2 text-gray-900">
                       {feature.title}
