@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://viniciusalmeidajs.github.io/pemasp-link-hub/",
+ "homepage": "https://ViniciusAlmeidajs.github.io/PemaspSite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
