@@ -4,7 +4,7 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig(({ mode }) => ({
-  base: "/pemasp-link-hub/",
+  base: "/PemaspSite/", // <- ATUALIZE AQUI PARA O NOME DO REPOSITORIO
 
   server: {
     host: "::",
