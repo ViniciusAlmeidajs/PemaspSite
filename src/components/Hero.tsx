@@ -38,7 +38,7 @@ const Hero = () => {
             <img 
               src={logo} 
               alt="PEMASP Auto Peças Logo" 
-              className="h-32 md:h-48 w-auto object-contain max-w-[80%]"
+              className="h-44 md:h-48 w-auto object-contain max-w-[90%]"
             />
           </div>
         </div>
