@@ -34,11 +34,11 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-4 text-center animate-fade-in-up">
         {/* Logo/Brand */}
         <div className="mb-8 inline-block">
-          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-12 py-12 rounded-2xl border border-gray-200">
+          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-6 py-6 md:px-12 md:py-12 rounded-2xl border border-gray-200">
             <img 
               src={logo} 
               alt="PEMASP Auto Peças Logo" 
-              className="h-44 md:h-48 w-auto object-contain max-w-[90%]"
+              className="h-56 md:h-48 w-auto object-contain max-w-[95%]"
             />
           </div>
         </div>
