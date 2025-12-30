@@ -1,10 +1,10 @@
 const brands = [
-  { name: "MAHLE", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mahle_logo.svg/2560px-Mahle_logo.svg.png" },
-  { name: "TAKAO", logo: "https://www.takao.com.br/wp-content/uploads/2021/03/logo-takao-auto-parts.png" },
-  { name: "SULOY", logo: "https://www.suloy.com.br/wp-content/themes/suloy/images/logo.png" },
-  { name: "APEX", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKxvqL9YvPxVvH4Z5Z_RvZYqH5lZvZvZvZw&s" },
-  { name: "METAL LEVE", logo: "https://www.metaleve.com.br/Images/logo.png" },
-  { name: "COFAP", logo: "https://www.cofap.com.br/img/logo.png" }
+  { name: "MAHLE", logo: <img src="./assets/mahle-logo.png" alt="MAHLE" /> },
+  { name: "TAKAO", logo: <img src="./assets/takao-logo.svg" alt="TAKAO" /> },
+  { name: "SULOY", logo: <img src="./assets/suloy-logo.svg" alt="SULOY" /> },
+  { name: "APEX", logo: <img src="./assets/apex-logo.png" alt="APEX" /> },
+  { name: "VICTOR REINZ", logo: <img src="./assets/victor-reinz.png" alt="VICTOR REINZ" /> },
+  { name: "ORIGINAL KS", logo: <img src="./assets/ks-logo.png" alt="ORIGINAL KS" /> }
 ];
 
 const Brands = () => {
