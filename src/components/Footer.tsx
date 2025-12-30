@@ -14,7 +14,7 @@ const Footer = () => {
             <img 
               src={logo} 
               alt="PEMASP Auto Peças" 
-              className="h-12 w-auto mb-4"
+              className="h-20 md:h-12 w-auto mb-4"
             />
             <p className="text-gray-600 text-sm leading-relaxed">
               Especializada em peças automotivas de qualidade. 
