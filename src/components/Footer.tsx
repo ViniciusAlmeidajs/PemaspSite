@@ -3,7 +3,7 @@ import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-br from-white via-gray-50 to-white pt-16 pb-8">
+    <footer className="relative bg-gradient-to-br from-white via-gray-50 to-white pt-8 pb-8">
       {/* Decorative top border with gradient */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-brand-yellow to-primary" />
       
@@ -39,6 +39,13 @@ const Footer = () => {
               >
                 <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
                 <span>(11) 2312-8252</span>
+              </a>
+                <a 
+                href="tel:1123128252" 
+                className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors group"
+              >
+                <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                <span>(11) 3410-0481</span>
               </a>
               <a 
                 href="https://wa.me/5511951061998" 

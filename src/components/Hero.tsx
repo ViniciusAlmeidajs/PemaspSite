@@ -26,19 +26,19 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-transparent to-white/80 z-[1]" />
       
       {/* Decorative Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-brand-yellow/10 rounded-full blur-3xl animate-float-slow" />
+      <div className="absolute top-4 left-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float" />
+      <div className="absolute bottom-12 right-8 w-40 h-40 bg-brand-yellow/10 rounded-full blur-3xl animate-float-slow" />
       <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-primary/5 rounded-full blur-2xl animate-float" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in-up">
+      <div className="relative z-10 container mx-auto px-4 py-4 text-center animate-fade-in-up">
         {/* Logo/Brand */}
         <div className="mb-8 inline-block">
-          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-12 py-10 rounded-2xl border border-gray-200">
+          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-16 py-16 rounded-2xl border border-gray-200">
             <img 
               src={logo} 
               alt="PEMASP Auto Peças Logo" 
-              className="h-28 md:h-36 w-auto object-contain"
+              className="h-40 md:h-56 w-auto object-contain"
             />
           </div>
         </div>
