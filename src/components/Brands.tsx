@@ -1,10 +1,17 @@
+import apexLogo from "@/assets/apex-logo.png";
+import ksLogo from "@/assets/ks-logo.png";
+import mahleLogo from "@/assets/mahle-logo.png";
+import suloyLogo from "@/assets/suloy-logo.svg";
+import takaoLogo from "@/assets/takao-logo.svg";
+import victorReinzLogo from "@/assets/victor-reinz.png";
+
 const brands = [
-  { name: "MAHLE", logo: <img src="./assets/mahle-logo.png" alt="MAHLE" /> },
-  { name: "TAKAO", logo: <img src="./assets/takao-logo.svg" alt="TAKAO" /> },
-  { name: "SULOY", logo: <img src="./assets/suloy-logo.svg" alt="SULOY" /> },
-  { name: "APEX", logo: <img src="./assets/apex-logo.png" alt="APEX" /> },
-  { name: "VICTOR REINZ", logo: <img src="./assets/victor-reinz.png" alt="VICTOR REINZ" /> },
-  { name: "ORIGINAL KS", logo: <img src="./assets/ks-logo.png" alt="ORIGINAL KS" /> }
+  { name: "MAHLE", logo: mahleLogo, url: "https://www.br.mahle.com/pt/" },
+  { name: "TAKAO", logo: takaoLogo, url: "https://www.takao.com.br" },
+  { name: "SULOY", logo: suloyLogo, url: "https://www.suloy.com" },
+  { name: "APEX", logo: apexLogo, url: "https://www.apex.com" },
+  { name: "VICTOR REINZ", logo: victorReinzLogo, url: "https://www.victorreinz.com" },
+  { name: "ORIGINAL KS", logo: ksLogo, url: "https://www.original-ks.com" }
 ];
 
 const Brands = () => {
@@ -32,7 +39,7 @@ const Brands = () => {
               <img
                 src={brand.logo}
                 alt={`${brand.name} logo`}
-                className="h-12 w-auto object-contain"
+                className="h-16 w-32 md:h-20 md:w-36 object-contain"
                 onError={(e) => {
                   // Fallback to text if image fails to load
                   const target = e.target as HTMLImageElement;

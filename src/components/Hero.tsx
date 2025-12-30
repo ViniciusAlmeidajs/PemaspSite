@@ -1,7 +1,7 @@
-import { MessageCircle, ShoppingCart, Shield, Truck, Headset } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/pemasp-logo.png";
+import { Button } from "@/components/ui/button";
+import { Headset, MessageCircle, Shield, ShoppingCart, Truck } from "lucide-react";
 
 const Hero = () => {
   const handleWhatsApp = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   const handleMercadoLivre = () => {
-    window.open("https://www.pemasp.com.br", "_blank");
+    window.open("https://www.mercadolivre.com.br/loja/pemasp#client=HOME&component_id=header_logo&component=header_logo&label=Pemasp&tracking_id=99493adb-5f6b-49bb-9079-e5a24b8dbaee&global_position=1", "_blank");
   };
 
   return (
@@ -34,19 +34,14 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in-up">
         {/* Logo/Brand */}
         <div className="mb-8 inline-block">
-          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-8 py-6 rounded-2xl border border-gray-200">
+          <div className="flex items-center justify-center gap-3 bg-white shadow-lg px-12 py-10 rounded-2xl border border-gray-200">
             <img 
               src={logo} 
               alt="PEMASP Auto Peças Logo" 
-              className="h-16 md:h-20 w-auto object-contain"
+              className="h-28 md:h-36 w-auto object-contain"
             />
           </div>
         </div>
-
-        {/* Tagline */}
-        <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-3xl mx-auto font-light">
-          AUTO PEÇAS
-        </p>
 
         <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-900 leading-tight max-w-4xl mx-auto">
           Qualidade e Variedade em<br />

@@ -1,5 +1,5 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import logo from "@/assets/pemasp-logo.png";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -47,14 +47,14 @@ const Footer = () => {
                 className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors group"
               >
                 <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                <span>(11) 95106-1998</span>
+                <span>(11) 95106-1998 - Whatsapp </span>
               </a>
               <a 
                 href="mailto:vendas@pecauto.com.br" 
                 className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors group"
               >
                 <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                <span>vendas@pecauto.com.br</span>
+                <span>pemasp@pemasp.com.br</span>
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-gray-600">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-primary" />
                 <span>
-                  Av. Queiroz Pedroso, 187<br />
+                  Av. Queiroz Pedroso, 187 Sala 01/02 <br />
                   Jardim Pedroso<br />
                   Mauá - SP
                 </span>
@@ -76,15 +76,17 @@ const Footer = () => {
 
           {/* Business Hours */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900">Horário</h3>
+            <h3 className="text-lg font-semibold mb-4 text-gray-900">Horários</h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-2 text-gray-600">
                 <Clock className="w-4 h-4 mt-1 flex-shrink-0 text-primary" />
                 <div>
-                  <p>Segunda a Sexta:</p>
+                  <p>Segunda a Quinta:</p>
                   <p className="text-gray-900 font-medium">08:00 - 18:00</p>
-                  <p className="mt-2">Sábado:</p>
-                  <p className="text-gray-900 font-medium">08:00 - 12:00</p>
+                  <p>Sexta-Feira:</p>
+                  <p className="text-gray-900 font-medium">08:00 - 17:00</p>
+                  <p className="mt-2">Sábados e Domingos:</p>
+                  <p className="text-gray-900 font-medium">Fechado</p>
                 </div>
               </div>
             </div>
@@ -94,8 +96,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
-            <p>© 2024 PEMASP AUTO PEÇAS - Todos os direitos reservados</p>
-            <p>CNPJ: 46.251.267/0001-52</p>
+            <p>© 2026 PEMASP AUTO PEÇAS - Todos os direitos reservados</p>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import { MessageCircle, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { MessageCircle, ShoppingCart } from "lucide-react";
 
 const CTA = () => {
   const handleWhatsApp = () => {
@@ -7,7 +7,7 @@ const CTA = () => {
   };
 
   const handleMercadoLivre = () => {
-    window.open("https://www.pemasp.com.br", "_blank");
+    window.open("https://www.mercadolivre.com.br/loja/pemasp#client=HOME&component_id=header_logo&component=header_logo&label=Pemasp&tracking_id=99493adb-5f6b-49bb-9079-e5a24b8dbaee&global_position=1", "_blank");
   };
 
   return (
@@ -57,7 +57,7 @@ const CTA = () => {
           <div className="mt-12 p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200 shadow-lg inline-block animation-delay-400 animate-fade-in-up hover:scale-105 transition-all duration-300">
             <p className="text-sm text-gray-600 flex items-center gap-2">
               <span className="text-xl">📍</span>
-              <span className="font-medium">Av. Queiroz Pedroso, 187 - Jardim Pedroso, Mauá - SP</span>
+              <span className="font-medium">Av. Queiroz Pedroso, 187 Sala 01/02 - Jardim Pedroso, Mauá - SP</span>
             </p>
           </div>
         </div>
