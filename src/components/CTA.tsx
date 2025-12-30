@@ -54,12 +54,21 @@ const CTA = () => {
             </Button>
           </div>
 
-          <div className="mt-12 p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200 shadow-lg inline-block animation-delay-400 animate-fade-in-up hover:scale-105 transition-all duration-300">
+          <a
+            href="https://maps.app.goo.gl/p1H1fgPWJNSscX8g6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-12 p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200 shadow-lg inline-block animation-delay-400 animate-fade-in-up transform-gpu hover:scale-105 hover:shadow-2xl active:scale-98 transition-all duration-300 cursor-pointer"
+            aria-label="Abrir localização no Google Maps"
+          >
             <p className="text-sm text-gray-600 flex items-center gap-2">
               <span className="text-xl">📍</span>
               <span className="font-medium">Av. Queiroz Pedroso, 187 Sala 01/02 - Jardim Pedroso, Mauá - SP</span>
             </p>
-          </div>
+            <div className="mt-2 text-xs text-primary/90 font-semibold opacity-100 md:opacity-0 translate-y-0 md:translate-y-1 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-200">
+              VER NO MAPS
+            </div>
+          </a>
         </div>
       </div>
     </section>

@@ -70,14 +70,27 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-4 text-gray-900">Localização</h3>
             <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-2 text-gray-600">
-                <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-primary" />
-                <span>
-                  Av. Queiroz Pedroso, 187 Sala 01/02 <br />
-                  Jardim Pedroso<br />
-                  Mauá - SP
-                </span>
-              </div>
+              <a
+                href="https://maps.app.goo.gl/p1H1fgPWJNSscX8g6"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir localização no Google Maps"
+                className="group block p-3 rounded-lg hover:scale-105 transform-gpu hover:shadow-lg active:scale-98 transition-all duration-200 cursor-pointer bg-white/0"
+              >
+                <div className="flex items-start gap-2 text-gray-600">
+                  <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-primary" />
+                  <div>
+                    <span className="block">
+                      Av. Queiroz Pedroso, 187 Sala 01/02 <br />
+                      Jardim Pedroso<br />
+                      Mauá - SP
+                    </span>
+                    <div className="mt-1 text-xs text-primary/90 font-semibold opacity-100 md:opacity-0 translate-y-0 md:translate-y-1 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-200 text-center">
+                      VER NO MAPS
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
 
