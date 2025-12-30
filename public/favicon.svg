@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Wrapper SVG to scale the raster favicon.png to favicon-size cleanly -->
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <defs>
-    <style>svg{image-rendering:-webkit-optimize-contrast; image-rendering:crisp-edges;}</style>
-  </defs>
-  <image href="/favicon.png" x="0" y="0" width="48" height="48" preserveAspectRatio="xMidYMid meet" />
-</svg>

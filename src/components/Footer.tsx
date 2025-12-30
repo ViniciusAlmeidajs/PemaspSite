@@ -1,4 +1,4 @@
-import logo from "@/assets/pemasp-logo.png";
+import logo from "@/assets/logo-principal.png";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
